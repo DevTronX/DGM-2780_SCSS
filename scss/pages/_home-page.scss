@@ -1,0 +1,51 @@
+// Home Page SCSS
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	font-family: $font-family;
+
+	h2{
+		color: $color3;
+	}
+
+	#home-page {
+
+		h3 {
+			color: $color1;	
+		}
+
+		.banner {
+			clear: both;
+			background-image: url(../img/banner.jpeg);
+			height: 240px;
+			background-repeat: no-repeat;
+		}
+		
+		.thumbs{
+			float: left;
+			img {
+				border: solid 2px transparent;
+				@include border-radius(25px);
+			}
+		}
+		
+		.images {
+			margin-left: (124px/3);
+
+			}
+
+		.article {
+			float: left;
+			width: 50%;
+			height: 200px + 50px;
+			h3 {
+				color: $color2;
+			}
+		}
+
+		.article2{
+			@extend .article;
+		}
+	}// #home-page
+}

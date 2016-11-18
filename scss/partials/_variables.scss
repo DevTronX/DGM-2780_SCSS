@@ -1,0 +1,14 @@
+// Variables
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+$font-family: arial, helvetica, sans-serif;
+
+$color1:red;
+$color2:blue;
+$color3:green;

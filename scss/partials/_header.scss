@@ -1,0 +1,18 @@
+// Header SCSS
+
+#header {
+
+	h2	{
+		float: left;
+	}
+
+    nav {
+    	float: right;
+
+    	li {
+    		float: left;
+    		padding-left: 10px;
+    		list-style: none;
+    	}	
+	}
+}// #header
